@@ -22,7 +22,7 @@ export class EmployeeService {
   }
 
   public updateemployee(employee: Employee): Observable<Employee> {
-    return this.http.put<Employee>(`${this.apiserverUrl}/employee/all`,employee);
+    return this.http.put<Employee>(`${this.apiserverUrl}/employee/update`,employee);
   }
 
   public findemployee(employeeId: number): Observable<Employee> {
