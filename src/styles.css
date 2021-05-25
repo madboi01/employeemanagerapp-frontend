@@ -2,8 +2,8 @@
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
 
 html,body{
-  background-image: linear-gradient(to top,#feada6,#f5efef);
-  height: 100%;
+  background-image: linear-gradient(to top,#ffffff,#feada6);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
